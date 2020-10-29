@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "name": "Richard Hendricks",
+      "image":
+      "https://static1.srcdn.com/wordpress/wp-content/uploads/2019/04/Thomas-Middleditch-as-Richard-in-Silicon-Valley.jpg?q=50&fit=crop&w=740&h=416&dpr=1.5",
+      "email": "richardhendricks@piedpiper.com",
+      "phone": "(650)114-6102",
+      "DOB": "01/15/1987"
+    },
+    {
+        "id": 2,
+        "name": "Jared “Donald” Dunn",
+        "image":
+        "https://static0.srcdn.com/wordpress/wp-content/uploads/2019/06/silicon-valley-jared.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5",
+        "email": "jarerddunn@piedpiper.com",
+        "phone": "(650)141-0202",
+        "DOB": "01/15/1985"
+      }
+    
+  ]
+  
