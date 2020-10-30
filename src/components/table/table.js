@@ -37,12 +37,9 @@ class Employeedata extends React.Component {
             [name]: value
         });
 
-        const filteredSearch = this.state.employees.filter(employee => employee.name.includes(this.state.search))
+        let filteredSearch = this.state.employees.filter(employee => employee.name.includes(this.state.search))
         console.log(filteredSearch)
-
-
-
-
+        this.setState({filteredSearch});
     };
 
 
@@ -59,18 +56,18 @@ class Employeedata extends React.Component {
 render(){
     return (
         <>
-        <div className="jumbotron jumbotron-fluid w-75 mt-3 col-lg-6 col-md-6 col-sm-6 col-xs-6 offset-3 float-md-center">
-                <div className="container text-center">
-                    <form className="text-center">
-                        <div className="form-group w-50 ">
+        <div className="jumbotron jumbotron-fluid w-75 center mb-5">
+                <div className="container ">
+                    <form className=" ">
+                        <div className="form-group  ">
                             <p> Search Employee </p>
                             <input
                                 value={this.state.search}
                                 name="search"
                                 onChange={this.handleInputChange}
-                                className="form-control text-center"
+                                className="form-control"
                                 placeholder="Employee Name" />
-                            <button onClick={this.handleFormSubmit} className="mt-2">Submit</button>
+                            <button onClick={this.handleFormSubmit} className="mt-2 btn-secondary">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -90,6 +87,7 @@ render(){
                 
                 {this.state.employees.map(person =>
                     <Employee
+                        updateTable={this.handleInputChange}
                         id={person.id}
                         key={person.id}
                         name={person.name}

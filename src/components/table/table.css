@@ -17,3 +17,10 @@ table {
   tr:nth-child() {
     background-color: #a01f1f;
   }
+
+  .center {
+    margin: auto;
+  
+    
+   
+  }
