@@ -5,7 +5,7 @@
       "image":
       "https://static1.srcdn.com/wordpress/wp-content/uploads/2019/04/Thomas-Middleditch-as-Richard-in-Silicon-Valley.jpg?q=50&fit=crop&w=740&h=416&dpr=1.5",
       "email": "richardhendricks@piedpiper.com",
-      "phone": "(650)114-6102",
+      "phone": "(650) 114-6102",
       "DOB": "01/15/1987"
     },
     {
@@ -14,9 +14,74 @@
         "image":
         "https://static0.srcdn.com/wordpress/wp-content/uploads/2019/06/silicon-valley-jared.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5",
         "email": "jarerddunn@piedpiper.com",
-        "phone": "(650)141-0202",
+        "phone": "(650) 141-0202",
         "DOB": "01/15/1985"
+      },
+      {
+        "id": 3,
+        "name": "Bertram Gilfoyle",
+        "image":
+        "https://static1.srcdn.com/wordpress/wp-content/uploads/2019/07/silicon-valley-gilfoyle-portrait.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5",
+        "email": "ertramilfoyle@piedpiper.com",
+        "phone": "(650) 103-1202",
+        "DOB": "07/30/1982"
+      },
+      {
+        "id": 4,
+        "name": "Dinesh Chugtai",
+        "image":
+        "https://static0.srcdn.com/wordpress/wp-content/uploads/2019/06/silicon-valley-dinesh.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5",
+        "email": "dineshchugtai@piedpiper.com",
+        "phone": "(650) 630-1301",
+        "DOB": "03/12/1978"
+      },
+      {
+        "id": 5,
+        "name": "Monica Hall",
+        "image":
+        "https://static1.srcdn.com/wordpress/wp-content/uploads/2019/04/Amanda-Crew-as-Monica-in-Silicon-Valley.jpg?q=50&fit=crop&w=740&h=416&dpr=1.5",
+        "email": "monicahall@piedpiper.com",
+        "phone": "(650) 245-0112",
+        "DOB": "06/05/1986"
+      },
+      {
+        "id": 6,
+        "name": "Nelson “Big Head” Bighetti ",
+        "image":
+        "https://static0.srcdn.com/wordpress/wp-content/uploads/2019/06/silicon-valley-nelson-big-head-bighetti.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5",
+        "email": "nelsonbighetti@piedpiper.com",
+        "phone": "(650) 541-5819",
+        "DOB": "10/01/1984"
+      },
+      {
+        "id": 7,
+        "name": "Ron LaFlamme ",
+        "image":
+        "https://static0.srcdn.com/wordpress/wp-content/uploads/2019/07/Ron-LaFlamme-silicon-valley.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5",
+        "email": "ronlaflamme@piedpiper.com",
+        "phone": "(650) 001-9193",
+        "DOB": "05/27/1980"
+      },
+      {
+        "id": 8,
+        "name": "Dang ",
+        "image":
+        "https://static1.srcdn.com/wordpress/wp-content/uploads/2019/07/dang-silicon-valley.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5",
+        "email": "dang@piedpiper.com",
+        "phone": "(650) 313-7834",
+        "DOB": "09/22/1982"
+      },
+      {
+        "id": 9,
+        "name": "Erlich Bachman",
+        "image":
+        "https://static3.srcdn.com/wordpress/wp-content/uploads/2019/04/TJ-Miller-as-Erlich-in-Silicon-Valley.jpg?q=50&fit=crop&w=740&h=416&dpr=1.5",
+        "email": "erlichbachman@piedpiper.com",
+        "phone": "(650) 872-4295",
+        "DOB": "06/04/1981"
       }
+
+
     
   ]
   
