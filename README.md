@@ -33,7 +33,7 @@ As a user, I want to be able to view my entire employee directory at once so tha
 ```
 
 ## Application Description
-This is a react.js application that allows user to view and sort employees by name. if you click name it will sort the employees by name. The page is broken up into components, a searchbar, navbar, title, and table. The search bar is currently not functional however if you look in the console.log you will see that the filter is working but the table is not updating, I plan to resoilve this problem soon.
+This is a react.js application that allows user to view and sort employees by name. If you click name it will sort the employees by name. The page is broken up into components, a searchbar, navbar, title, and table. The search bar is currently not functional however if you look in the console.log you will see that the filter is working but the table is not updating, I plan to resoilve this problem soon.
 
 
 ## Usage 
