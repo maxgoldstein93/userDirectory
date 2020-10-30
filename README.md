@@ -1,6 +1,6 @@
 # Employee Directory
 
-[CLICK HERE FOR LIVE APPLICATION](#)
+[CLICK HERE FOR LIVE APPLICATION](https://maxgoldstein93.github.io/userDirectory/)
 
 ## Table of Contents
 * [Screenshots](#screenshots)
