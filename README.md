@@ -51,7 +51,7 @@ Use the live application via the githubpages link provided above
 * react.js
 * bootstrap
 * JSON
-* JQuery 
+* JavaScript 
 
 
 ## License
