@@ -36,10 +36,6 @@ class Employeedata extends React.Component {
         this.setState({
             [name]: value
         });
-
-        let filteredSearch = this.state.employees.filter(employee => employee.name.includes(this.state.search))
-        console.log(filteredSearch)
-        this.setState({filteredSearch});
     };
 
 
@@ -54,6 +50,8 @@ class Employeedata extends React.Component {
 
 
 render(){
+    let filteredSearch = employees.filter(employee => employee.name.includes(this.state.search))
+    console.log(filteredSearch)
     return (
         <>
         <div className="jumbotron jumbotron-fluid w-75 center mb-5">
@@ -85,9 +83,8 @@ render(){
             </thead>
             <tbody>
                 
-                {this.state.employees.map(person =>
+                {filteredSearch.map(person =>
                     <Employee
-                        updateTable={this.handleInputChange}
                         id={person.id}
                         key={person.id}
                         name={person.name}
