@@ -33,9 +33,17 @@ class Employeedata extends React.Component {
         let value = event.target.value;
         console.log(value)
         const name = event.target.name;
+
+        let filteredSearch = employees.filter(employee => employee.name.includes(value))
+        console.log(filteredSearch)
+
         this.setState({
-            [name]: value
+            [name]: value,
+            employees: filteredSearch
+
         });
+        // also could try .then
+
     };
 
 
@@ -50,8 +58,8 @@ class Employeedata extends React.Component {
 
 
 render(){
-    let filteredSearch = employees.filter(employee => employee.name.includes(this.state.search))
-    console.log(filteredSearch)
+    // let filteredSearch = employees.filter(employee => employee.name.includes(this.state.search))
+    // console.log(filteredSearch)
     return (
         <>
         <div className="jumbotron jumbotron-fluid w-75 center mb-5">
@@ -83,7 +91,7 @@ render(){
             </thead>
             <tbody>
                 
-                {filteredSearch.map(person =>
+                {this.state.employees.map(person =>
                     <Employee
                         id={person.id}
                         key={person.id}
